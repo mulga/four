@@ -1,0 +1,72 @@
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* --------------------- */
+/* Utility classes                 */
+/* --------------------- */
+
+:root {
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-success: #28a744;
+  --color-danger: #dc3644;
+  --color-warning: #ffc109;
+  --color-info: #18a2b8;
+  --color-light: #f8f9fa;
+  --color-dark: #343a40;
+  --color-white: #ffff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+/* custom styles */
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid {
+  border: 1px solid;
+  height: 180px;
+  width: 210px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.x {
+  background-color: #dee1e627;
+}
+
+.player-one {
+  background-color: var(--color-danger);
+  border-radius: 50%;
+}
+
+.player-two {
+  background-color: var(--color-primary);
+  border-radius: 50%;
+}
