@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   for (let i = 0; i < squares.length; i++) {
     squares[i].onclick = () => {
-      // alert("You have clicked " + i);
+      
       console.log("You have clicked " + i);
       //  if the squre belowyou current square ist taken
       if (
